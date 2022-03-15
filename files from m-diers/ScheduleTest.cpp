@@ -4,19 +4,6 @@
 #include <hpx/runtime_distributed/find_all_localities.hpp>
 #include <boost/range/irange.hpp>
 
-//#include <hpx/hpx_main.hpp>
-
-
-/*
-#include <cstddef>
-#include <fstream>
-#include <functional>
-#include <iostream>
-#include <map>
-#include <string>
-#include <vector>
-#include <numeric>
-*/
 
 /// tested on ubuntu 20.04.03 (singularity/docker)
 /// hpx master or 1.7.1 compiled as release with clang 12
