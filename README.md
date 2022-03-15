@@ -38,9 +38,9 @@
         project(scheduletest CXX)
 
         find_package(HPX REQUIRED)
-        add_hpx_component(scheduletest
-        SOURCES scheduletest.cpp
-        COMPONENT_DEPENDENCIES iostreams)
+        #add_hpx_component(scheduletest
+                SOURCES scheduletest.cpp
+                COMPONENT_DEPENDENCIES iostreams)
         add_executable(scheduletest scheduletest.cpp)
         target_link_libraries(scheduletest HPX::hpx HPX::wrap_main)
        
