@@ -30,7 +30,7 @@
               target_sources( ${PROJECT_NAME} PUBLIC ScheduleTest.cpp )
               #target_link_libraries( ${PROJECT_NAME} PUBLIC hpx_init )
               
-     which complain:   /usr/bin/ld: cannot find -lhpx_init ( no permission to add this )
+     which complain:   /usr/bin/ld: cannot find -lhpx_init ( permission decline to add this )
      
  3. Following is the one I wrote for first try before he provided CMakeLists.txt
  
