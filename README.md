@@ -1,6 +1,6 @@
 # issue-reproduce
 
-1. m-diers provide the CMakeLists.txt as: in files from m-diers folder
+1. m-diers provide the CMakeLists.txt as following: ( files from m-diers folder)
 
         project( ScheduleTest )
         add_executable( ${PROJECT_NAME} )
@@ -18,7 +18,7 @@
       
   always complain cannt find the include files...
   
-  2. I modified the CMakeLists.txt as :  in lastest try folder
+  2. I modified the CMakeLists.txt as following:  (lastest try folder)
   
               cmake_minimum_required(VERSION 3.13)
 
