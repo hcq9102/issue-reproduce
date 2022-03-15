@@ -18,7 +18,7 @@
       
   always complain cannt find the include files...
   
-  2. I modified the CMakeLists.txt as following:  (lastest try folder)
+  2. I modified his/her CMakeLists.txt as following:  (lastest try folder)
   
               cmake_minimum_required(VERSION 3.13)
 
@@ -31,4 +31,16 @@
               #target_link_libraries( ${PROJECT_NAME} PUBLIC hpx_init )
               
      which complain:   /usr/bin/ld: cannot find -lhpx_init
+     
+ 3. Following is the one I wrote for first try before he provided CMakeLists.txt
+ 
+        cmake_minimum_required(VERSION 3.13)
+        project(scheduletest CXX)
+
+        find_package(HPX REQUIRED)
+        add_hpx_component(scheduletest
+        SOURCES scheduletest.cpp
+        COMPONENT_DEPENDENCIES iostreams)
+        add_executable(scheduletest scheduletest.cpp)
+        target_link_libraries(scheduletest HPX::hpx HPX::wrap_main)
        
