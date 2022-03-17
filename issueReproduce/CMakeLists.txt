@@ -1,0 +1,8 @@
+project( ScheduleTest )
+cmake_minimum_required( VERSION 3.21 )
+add_executable( ${PROJECT_NAME} )
+target_sources( ${PROJECT_NAME} PUBLIC ScheduleTest.cpp )
+target_compile_options( ${PROJECT_NAME} PUBLIC -Ofast )
+find_package( HPX REQUIRED PATHS /opt/hpx-git NO_DEFAULT_PATH )
+include_directories( ${HPX_INCLUDE_DIRS} )
+target_link_libraries( ${PROJECT_NAME} PUBLIC HPX::hpx HPX::iostreams_component )
