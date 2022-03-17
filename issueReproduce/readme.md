@@ -1,8 +1,14 @@
+Test on head node on rostam:
+
 1. Do following(m-diers provide) in command line:
 
           srun -n 16 N 1 -w "MYNODE" ./ScheduleTest --hpx:ini=hpx.parcel.mpi.enable!=1 --hpx:ini=hpx.parcel.tcp.enable!=0 
 
-   It will hang for a super long time and no response.
+   It will hang for a super long time and no response;
+   or get
+   
+   <img width="493" alt="Screen Shot 2022-03-17 at 5 13 26 PM" src="https://user-images.githubusercontent.com/49005493/158903093-76e392e5-1485-45a8-9426-a14fade0fe3e.png">
+
    
 2. I modified 
     
