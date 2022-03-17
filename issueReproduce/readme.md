@@ -1,4 +1,4 @@
-NOTE: all Test on head node on rostam:
+NOTE: Test on head node on rostam:
 
 TWO CASES HERE:
 
