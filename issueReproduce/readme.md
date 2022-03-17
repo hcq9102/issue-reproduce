@@ -36,6 +36,6 @@ https://gist.github.com/m-diers/f1cdec7cf48715e0ab80a0034e9ccaf8#file-schedulete
 NOTE: if I try on medusa (srun -p medusa -N 1 --pty /bin/bash -l);
 
           the first case will hang totally , no response;
-          the seconde case will hang at some point:
+          the seconde case will hang at some point, as the following :
           
 <img width="924" alt="Screen Shot 2022-03-17 at 5 20 39 PM" src="https://user-images.githubusercontent.com/49005493/158903863-b88b0317-35fa-4adc-a293-37431ce29b9a.png">
