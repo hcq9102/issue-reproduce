@@ -1,4 +1,6 @@
-Test on head node on rostam:
+NOTE: all Test on head node on rostam:
+
+TWO CASES HERE:
 
 1. Do following(m-diers provide) in command line:
 
@@ -10,7 +12,7 @@ Test on head node on rostam:
    <img width="493" alt="Screen Shot 2022-03-17 at 5 13 26 PM" src="https://user-images.githubusercontent.com/49005493/158903093-76e392e5-1485-45a8-9426-a14fade0fe3e.png">
 
    
-2. I modified 
+2. Then I modified 
     
            --hpx:ini=hpx.parcel.mpi.enable!=1  to --hpx:ini=hpx.parcel.mpi.enable=0 (which I have used this before when do performance test);
    and do:
@@ -29,3 +31,11 @@ which I think the last value 999998 is the same as the set value from m-diers's 
 https://gist.github.com/m-diers/f1cdec7cf48715e0ab80a0034e9ccaf8#file-scheduletest-cpp-L19
 
 <img width="449" alt="Screen Shot 2022-03-17 at 5 07 11 PM" src="https://user-images.githubusercontent.com/49005493/158902391-3c94daba-c9d7-44eb-acf3-cb78f7f1e26b.png">
+
+
+NOTE: if I try on medusa (srun -p medusa -N 1 --pty /bin/bash -l);
+
+          the first case will hang totally , no response;
+          the seconde case will hang at some point:
+          
+<img width="924" alt="Screen Shot 2022-03-17 at 5 20 39 PM" src="https://user-images.githubusercontent.com/49005493/158903863-b88b0317-35fa-4adc-a293-37431ce29b9a.png">
