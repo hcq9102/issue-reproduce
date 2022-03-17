@@ -27,7 +27,7 @@ TWO CASES HERE:
    <img width="1168" alt="Screen Shot 2022-03-17 at 5 04 45 PM" src="https://user-images.githubusercontent.com/49005493/158902217-9af32f27-d6f5-4cdd-afa7-aaf03ff830ed.png">
 
    
-which I think the last value 999998 is the same as the set value from m-diers's cpp file.
+which I think the last value 99998 is the same as the set value from m-diers's cpp file.
 https://gist.github.com/m-diers/f1cdec7cf48715e0ab80a0034e9ccaf8#file-scheduletest-cpp-L19
 
 <img width="449" alt="Screen Shot 2022-03-17 at 5 07 11 PM" src="https://user-images.githubusercontent.com/49005493/158902391-3c94daba-c9d7-44eb-acf3-cb78f7f1e26b.png">
